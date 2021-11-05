@@ -1,0 +1,98 @@
+.main-greetings {
+  background: black;
+  padding-left: 375px;
+  padding-right: 375px;
+  display: flex;
+}
+
+.logo-igorich {
+  width: 1202px;
+  height: 761.47px;
+}   
+
+.greetings-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  color: #e4e4e4;
+}
+
+.text-hello {
+  font-family: NEXT ART;
+  width: 205px;
+  height: 39px;
+  padding-top: 200px;
+
+  font-size: 48px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -27px;
+  color: #e4e4e4;
+}
+
+.text-title {
+  font-family: NEXT ART;
+  height: none;
+  font-size: 61px;
+  line-height: 82px;
+  display: flex;
+  margin-bottom: none;
+  margin-top: 27px;
+}
+
+.text-mini {
+  font-family: Arodora Pro;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.button-Contact {
+  font-family: NEXT ART;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #000000;
+
+  width: 200px;
+  height: 47px;
+
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+  border-radius: 6px;
+}
+
+.logo-igorich {
+  margin-top: 113px;
+  width: 632px;
+  height: 674.47px;
+
+}
+
+@media (max-width: 475px) { 
+
+  .main-greetings {
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main-logo img {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .text-hello{
+    padding-top: 40px;
+  }
+  .text-title{
+    font-size: 62px;
+    line-height: 70px;
+  }
+}

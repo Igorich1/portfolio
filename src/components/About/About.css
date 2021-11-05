@@ -1,0 +1,144 @@
+.about {
+  background: #2c2c2c;
+  padding-top: 156px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.about-title {
+  width: 246px;
+  height: 54px;
+  justify-content: center;
+  margin: 0px auto 20px;
+  font-family: NEXT ART;
+
+  font-size: 48px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+
+  color: #e4e4e4;
+}
+
+.about-description {
+  font-family: Arodora Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  border-radius: 14px;
+  color: #ffffff;
+  padding: 0 15px 0 15px;
+  height: 560px;
+  border-radius: 29px;
+}
+.about-description a {
+  text-decoration: none;
+  color: white;
+}
+
+.gorod {
+  text-decoration: none;
+
+  font-family: Arodora Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2c2c2c;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  width: 30%;
+  border-radius: 14px;
+  z-index: 1;
+}
+
+.bloks-photo {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-right: -37px;
+}
+
+.photo-joma {
+  width: 272px;
+  height: 320px;
+  margin-bottom: 197px;
+}
+.photo-carpaty {
+  width: 250px;
+  height: 281px;
+}
+.photo-palmua {
+  width: 287px;
+  height: 427px;
+}
+.about__background {
+  position: absolute;
+  width: 1150px;
+  
+}
+.photo {
+  z-index: 1;
+}
+
+@media (max-width: 475px) {
+  .about__background {
+    width: 366px;
+    opacity: 30%;
+
+  }
+
+  .about-container {
+    background: none;
+    box-shadow: none; 
+    width: 80%;
+  }
+  .about-description{
+    height: 780px;
+    
+  }
+  
+
+  .photo-joma {
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    
+  }
+
+  .photo-carpaty {
+    width: 100%;
+    height: auto;
+    margin-top: -170px;
+    margin-bottom: 20px;
+    padding-left: 0px;    
+  }
+
+  .photo-palmua {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    
+  }
+  .bloks-photo{
+    padding: 0;
+    margin: 0;
+  }
+}
+
